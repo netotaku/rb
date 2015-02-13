@@ -1,0 +1,93 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "skeleton";
+
+html{
+
+  background: #3C154C url(/assets/images/brand.png) no-repeat center 80px;
+  color: #FFF6CF;
+
+  line-height: 1.75;
+  height: 100%;
+
+  font-family: 'Merriweather', serif;
+
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+
+}
+
+body{
+  padding-top: 170px;
+}
+
+h1{
+  display: none;
+}
+
+h2{
+  color: #A27EA4;
+  letter-spacing: 2px;
+}
+h3{
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+a{
+  color: #FFF6CF;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.row,p{
+  margin-bottom: 20px;
+}
+
+p{
+  text-align: justify;
+}
+
+header{
+  text-align: center;
+}
+
+.brand{
+  background: url(/assets/images/brand.png) no-repeat;
+}
+
+hr{
+  background: none;
+  border: 0px;
+  border-top: solid 1px #A27EA4;
+  width: 80%;
+}
+
+.buttons{
+  text-align: center;
+  word-spacing: 3px;
+  li{
+    display: inline-block;
+    a{
+      display: block;
+      font-size: 1.2em;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      color: #3C154C;
+      background: #FFF6CF;
+      .fa{
+        line-height: 40px;
+      }
+    }
+  }
+}
