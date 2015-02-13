@@ -575,7 +575,7 @@ header {
 
 /* line 64, ../scss/styles.scss */
 .brand {
-  background: url(/assets/images/brand.png) no-repeat;
+  background: url(../images/brand.png) no-repeat;
 }
 
 /* line 68, ../scss/styles.scss */
