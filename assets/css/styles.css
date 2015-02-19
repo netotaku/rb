@@ -510,7 +510,8 @@ there.
 /* Larger than Desktop HD */
 /* line 5, ../scss/styles.scss */
 html {
-  background: #3C154C url(../images/brand.png) no-repeat center 80px;
+  background: url(../images/bg.png) no-repeat;
+  background-size: cover;
   color: #FFF6CF;
   line-height: 1.75;
   height: 100%;
@@ -527,58 +528,94 @@ html {
   font-smoothing: antialiased;
 }
 
-/* line 28, ../scss/styles.scss */
+/* line 29, ../scss/styles.scss */
 body {
-  padding-top: 170px;
+  height: 100%;
 }
 
-/* line 32, ../scss/styles.scss */
+/* line 35, ../scss/styles.scss */
+.page {
+  padding: 40px 0px;
+  background: #fff;
+  color: #666;
+}
+/* line 39, ../scss/styles.scss */
+.page p {
+  text-align: justify;
+}
+/* line 42, ../scss/styles.scss */
+.page h2 {
+  font-size: 1.8em;
+  color: #666;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 49, ../scss/styles.scss */
+.page .close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 2em;
+  color: #3E2952;
+  cursor: pointer;
+}
+
+/* line 59, ../scss/styles.scss */
+.leader {
+  padding: 50px 0px;
+  display: table;
+  width: 100%;
+}
+/* line 65, ../scss/styles.scss */
+.leader .inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 69, ../scss/styles.scss */
+.leader .inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 76, ../scss/styles.scss */
 h1 {
   display: none;
 }
 
-/* line 36, ../scss/styles.scss */
+/* line 80, ../scss/styles.scss */
 h2 {
   color: #A27EA4;
   letter-spacing: 2px;
 }
 
-/* line 40, ../scss/styles.scss */
+/* line 84, ../scss/styles.scss */
 h3 {
   letter-spacing: 2px;
   margin-bottom: 40px;
 }
 
-/* line 45, ../scss/styles.scss */
+/* line 89, ../scss/styles.scss */
 a {
   color: #FFF6CF;
 }
-/* line 47, ../scss/styles.scss */
+/* line 91, ../scss/styles.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 52, ../scss/styles.scss */
+/* line 96, ../scss/styles.scss */
 .row, p {
   margin-bottom: 20px;
 }
 
-/* line 56, ../scss/styles.scss */
-p {
-  text-align: justify;
-}
-
-/* line 60, ../scss/styles.scss */
+/* line 102, ../scss/styles.scss */
 header {
   text-align: center;
 }
 
-/* line 64, ../scss/styles.scss */
-.brand {
-  background: url(../images/brand.png) no-repeat;
-}
-
-/* line 68, ../scss/styles.scss */
+/* line 108, ../scss/styles.scss */
 hr {
   background: none;
   border: 0px;
@@ -586,16 +623,40 @@ hr {
   width: 80%;
 }
 
-/* line 75, ../scss/styles.scss */
+/* line 115, ../scss/styles.scss */
+footer {
+  padding: 50px 0px;
+  background: #1E1228;
+}
+/* line 118, ../scss/styles.scss */
+footer a {
+  color: #fff;
+}
+
+/* line 123, ../scss/styles.scss */
+.btn {
+  display: inline-block;
+  background: #3F2952;
+  padding: 12px 22px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+/* line 129, ../scss/styles.scss */
+.btn:hover {
+  text-decoration: underline;
+}
+
+/* line 134, ../scss/styles.scss */
 .buttons {
+  padding-bottom: 20px;
   text-align: center;
   word-spacing: 3px;
 }
-/* line 78, ../scss/styles.scss */
+/* line 138, ../scss/styles.scss */
 .buttons li {
   display: inline-block;
 }
-/* line 80, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .buttons li a {
   display: block;
   font-size: 1.2em;
@@ -603,9 +664,9 @@ hr {
   height: 40px;
   border-radius: 20px;
   color: #3C154C;
-  background: #FFF6CF;
+  background: #fff;
 }
-/* line 88, ../scss/styles.scss */
+/* line 148, ../scss/styles.scss */
 .buttons li a .fa {
   line-height: 40px;
 }
