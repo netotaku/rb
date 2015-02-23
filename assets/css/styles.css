@@ -622,19 +622,20 @@ hr {
   border: 0px;
   border-top: solid 1px #A27EA4;
   width: 80%;
+  margin-bottom: 40px;
 }
 
-/* line 116, ../scss/styles.scss */
+/* line 117, ../scss/styles.scss */
 footer {
   padding: 50px 0px;
   background: #1E1228;
 }
-/* line 119, ../scss/styles.scss */
+/* line 120, ../scss/styles.scss */
 footer a {
   color: #fff;
 }
 
-/* line 124, ../scss/styles.scss */
+/* line 125, ../scss/styles.scss */
 .btn {
   display: inline-block;
   background: #3F2952;
@@ -642,22 +643,22 @@ footer a {
   text-decoration: none;
   border-radius: 4px;
 }
-/* line 130, ../scss/styles.scss */
+/* line 131, ../scss/styles.scss */
 .btn:hover {
   text-decoration: underline;
 }
 
-/* line 135, ../scss/styles.scss */
+/* line 136, ../scss/styles.scss */
 .buttons {
   padding-bottom: 20px;
   text-align: center;
   word-spacing: 3px;
 }
-/* line 139, ../scss/styles.scss */
+/* line 140, ../scss/styles.scss */
 .buttons li {
   display: inline-block;
 }
-/* line 141, ../scss/styles.scss */
+/* line 142, ../scss/styles.scss */
 .buttons li a {
   display: block;
   font-size: 1.2em;
@@ -667,7 +668,7 @@ footer a {
   color: #3C154C;
   background: #fff;
 }
-/* line 149, ../scss/styles.scss */
+/* line 150, ../scss/styles.scss */
 .buttons li a .fa {
   line-height: 40px;
 }
